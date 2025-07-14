@@ -1,2 +1,5 @@
-# someCodeForFun
-this repository is with some code in C++, Python, Java
+# Много кода не бывает)
+Репозиторий создан для загрузки реализации некоторых простых функций на C++, Python, Java
+- [C++]()
+- [Python]()
+- [Java]()
