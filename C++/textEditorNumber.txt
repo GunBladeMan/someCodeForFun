@@ -1,0 +1,12 @@
+#include <string>
+#include <vector>
+
+std::vector<std::string> number(const std::vector<std::string> &lines)
+{
+    std::vector<std::string> res;
+    for (unsigned long i = 0; i < lines.size(); i++) {
+      std::string tmp(std::to_string(i + 1) + ": " + lines.at(i));
+      res.push_back(tmp);
+    }
+    return res;
+}
