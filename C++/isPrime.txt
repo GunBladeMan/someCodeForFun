@@ -1,0 +1,9 @@
+bool isPrime(int num) {
+  if (num <= 1) return false;
+  int limit = num;
+  for (int div = 2; div < limit; div++) {
+    if (num % div == 0) return false;
+    limit = num / (div - 1);
+  }
+  return true;
+}
