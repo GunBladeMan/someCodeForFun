@@ -1,0 +1,15 @@
+#include <string>
+
+int persistence(long long num){
+  int res = 0;
+  std::string str_num = std::to_string(num);
+  while (str_num.length() > 1) {
+    int new_num = 1;
+    for(auto digit : str_num) {
+      new_num *= digit - '0';
+    }
+    res++;
+    str_num = std::to_string(new_num);
+  }
+  return res;
+}
