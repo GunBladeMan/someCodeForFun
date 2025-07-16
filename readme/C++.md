@@ -9,4 +9,4 @@
   ["Jacob", "Alex"] --> "Jacob and Alex like this"
   ["Max", "John", "Mark"] --> "Max, John and Mark like this"
   ["Alex", "Jacob", "Mark", "Max"] --> "Alex, Jacob and 2 others like this"
-- [getLoopSize]() : на вход подается начальный узел списка. Известно, что в нем есть цикл. Данная функция находит размер цикла. Размер цикла - количество узлов, из которых состоит цикл.
+- [getLoopSize](https://github.com/GunBladeMan/someCodeForFun/blob/main/C%2B%2B/getLoopSize.txt) : на вход подается начальный узел списка. Известно, что в нем есть цикл. Данная функция находит размер цикла. Размер цикла - количество узлов, из которых состоит цикл.
