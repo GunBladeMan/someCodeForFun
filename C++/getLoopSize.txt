@@ -1,1 +1,16 @@
-
+int getLoopSize(Node* startNode) {
+    Node *turtle = startNode;
+    Node *rabbit = startNode;
+    do {
+      turtle = turtle->getNext();
+      rabbit = rabbit->getNext();
+      rabbit = rabbit->getNext();
+    } while (rabbit != turtle);
+    int res = 0;
+    Node *fixedInCycleNode = turtle;
+    do {
+      turtle = turtle->getNext();
+      res++;
+    } while (turtle != fixedInCycleNode);
+    return res;
+}
