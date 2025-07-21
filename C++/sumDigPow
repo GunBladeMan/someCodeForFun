@@ -1,0 +1,21 @@
+#include <vector>
+#include <string>
+#include <cmath>
+
+bool isDigPow(unsigned int num) {
+  unsigned int comp = 0;
+  std::string tmp = std::to_string(num);
+  for (unsigned long i = 0; i < tmp.size(); i++) {
+    comp += std::pow(tmp[i] - '0', i + 1);
+  }
+  return comp == num;
+}
+
+std::vector<unsigned int> sumDigPow(unsigned int a, unsigned int b) {
+  std::vector<unsigned int> res;
+  for (unsigned int i = a; i <= b; i++) {
+    if (i < 10) res.push_back(i);
+    else if (isDigPow(i)) res.push_back(i);
+  }
+  return res;
+}
