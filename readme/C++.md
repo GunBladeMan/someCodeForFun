@@ -13,3 +13,4 @@
 - [pig_it](https://github.com/GunBladeMan/someCodeForFun/blob/main/C%2B%2B/pig_it.txt) : преобразовывает строку так, что в каждом слове первая буква ставится в конец и после приписывается "ay". Пример: "This is pig" -> "hisTay siay gpiay"
 - [count](https://github.com/GunBladeMan/someCodeForFun/blob/main/C%2B%2B/count) : подсчитывает количество появлений символов в строке. "abcaba" -> {'a' : 3, 'b' : 2, 'c' : 1}
 - [sumDigPow](https://github.com/GunBladeMan/someCodeForFun/blob/main/C%2B%2B/sumDigPow) : находит в указанном диапозоне чисел числа, удовлетворяющие условиям, которым удовлетворяют числа, например, 89 и 135. Пояснение: 89 = 8^1 + 9^2; 135 = 1^1 + 3^2 + 5^3
+- [rgbToHex](https://github.com/GunBladeMan/someCodeForFun/blob/main/C%2B%2B/rgbToHex) : преобразовывает rgb значения в hex представление.
