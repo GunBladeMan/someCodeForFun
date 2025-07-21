@@ -1,0 +1,7 @@
+#include <regex>
+
+std::string pig_it(std::string str)
+{
+    std::regex reg("(\\w)(\\w*)(\\s|$)");
+    return std::regex_replace(str, reg, "$2$1ay$3");
+}
