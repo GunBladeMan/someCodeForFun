@@ -10,3 +10,4 @@
   ["Max", "John", "Mark"] --> "Max, John and Mark like this"
   ["Alex", "Jacob", "Mark", "Max"] --> "Alex, Jacob and 2 others like this"
 - [getLoopSize](https://github.com/GunBladeMan/someCodeForFun/blob/main/C%2B%2B/getLoopSize.txt) : на вход подается начальный узел списка. Известно, что в нем есть цикл. Данная функция находит размер цикла. Размер цикла - количество узлов, из которых состоит цикл.
+- [pig_it](https://github.com/GunBladeMan/someCodeForFun/blob/main/C%2B%2B/pig_it.txt) : преобразовывает строку так, что в каждом слове первая буква ставится в конец и после приписывается "ay". Пример: "This is pig" -> "hisTay siay gpiay"
