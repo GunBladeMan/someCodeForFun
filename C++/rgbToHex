@@ -1,0 +1,8 @@
+#include <string>
+#include <algorithm>
+#include <fmt/core.h>
+
+std::string rgb_to_hex(int r, int g, int b)
+{
+    return fmt::format("{:02X}{:02X}{:02X}", std::clamp(r, 0, 255), std::clamp(g, 0, 255), std::clamp(b, 0, 255));
+}
