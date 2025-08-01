@@ -1,3 +1,3 @@
-#Список всех работ написанных на Python
+#Список функций написанных на Python
 
-- [Тортики](https://github.com/GunBladeMan/someCodeForFun/blob/main/Python/cakes.py)
+- [Тортики](https://github.com/GunBladeMan/someCodeForFun/blob/main/Python/cakes.py) : подсчитывает количество тортиков, которые можно испечь по заданному рецепту из доступных материалов (рецепт и материалы передаются в функцию в виде словаря)
